@@ -1,9 +1,5 @@
     import java.util.HashMap;
 public class OOPSBannerApp8 {
-
-    /**
-     * Creates and returns a HashMap containing ASCII patterns
-     */
     public static HashMap<Character, String[]> createCharacterMap() {
 
         HashMap<Character, String[]> charMap = new HashMap<>();
@@ -51,10 +47,6 @@ public class OOPSBannerApp8 {
 
         return charMap;
     }
-
-    /**
-     * Displays the banner for the given message
-     */
     public static void displayBanner(String message,
                                      HashMap<Character, String[]> charMap) {
 
